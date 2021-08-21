@@ -1,3 +1,8 @@
+#!/usr/local/bin/python3
+
+# WHAT DOES THIS SCRIPT DO?
+# list files of a directory
+
 # use subprocess module to interact with the linux CLI
 import subprocess
 

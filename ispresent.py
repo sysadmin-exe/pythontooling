@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 # WHAT DOES THIS SCRIPT DO? 
 # This script will check if the provided filename or dirname is present
 

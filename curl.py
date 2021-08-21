@@ -1,3 +1,8 @@
+#!/usr/local/bin/python3
+
+# WHAT DOES THIS SCRIPT DO?
+# Runs simple linux commands 
+
 import sys
 import subprocess
 
@@ -12,4 +17,4 @@ if len(args) == 2:
     stdout, stderr = subprocess.Popen(cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()
     print(stdout)
 else:
-    print("usage (only 2 arguments): python3 curl.py [url/IP address to ping]")
+    print("usage (only 2 arguments): EXAMPLE => python3 curl.py [url/IP address to ping]")
